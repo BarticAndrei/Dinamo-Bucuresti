@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamo București</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+            color: #c40000;
+        }
+        header {
+            background-color: #c40000;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #c40000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+        }
+        footer {
+            background-color: #c40000;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .players {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 1em;
+        }
+        .player {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dinamo București</h1>
+        <p>Club de tradiție al fotbalului românesc</p>
+    </header>
+    <nav>
+        <a href="#acasa">Acasă</a>
+        <a href="#despre">Despre</a>
+        <a href="#jucatori">Jucători</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="acasa">
+        <h2>Bine ai venit!</h2>
+        <p>Dinamo București este unul dintre cele mai iubite cluburi de fotbal din România, cu o istorie bogată și numeroși suporteri devotați.</p>
+    </section>
+
+    <section id="despre">
+        <h2>Despre club</h2>
+        <p>Fondat în 1948, Dinamo București are un palmares impresionant:</p>
+        <ul>
+            <li>18 titluri de campioană a României</li>
+            <li>13 Cupe ale României</li>
+            <li>2 Supercupe ale României</li>
+            <li>Prezențe memorabile în cupele europene</li>
+        </ul>
+    </section>
+
+    <section id="jucatori">
+        <h2>Jucători legendari</h2>
+        <div class="players">
+            <div class="player">Cornel Dinu</div>
+            <div class="player">Dudu Georgescu</div>
+            <div class="player">Florea Dumitrache</div>
+            <div class="player">Ionel Dănciulescu</div>
+            <div class="player">Gheorghe Mulțescu</div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@dinamo.ro</p>
+        <p>Adresă: Șoseaua Ștefan cel Mare, nr. 137, București</p>
+    </section>
+
+    <footer>
+        &copy; 2025 Dinamo București - Site realizat pentru proiect școlar
+    </footer>
+</body>
+</html>
